@@ -1,0 +1,29 @@
+#main {
+	width: 100%;
+	display: table;
+}
+
+#content {
+	float: left;
+	padding-left: 40px;
+	display: table;
+	margin-right: 300px;
+	border-right: 2px dotted #4ec714
+}
+
+#content h1 {
+	color: #4ec614;
+}
+
+#content article {
+	float: left;
+}
+
+#sidenav {
+	padding: 20px 20px;
+	clear: none;
+	margin-left: 2px;
+	margin-right: -100%;
+	float: left;
+	width:260px;
+}
