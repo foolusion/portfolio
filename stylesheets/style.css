@@ -1,3 +1,4 @@
+/* http://colorschemedesigner.com/#2G51TsOsOK-K- */
 body {
 	max-width: 1000px;
 	position: relative;
@@ -41,6 +42,10 @@ nav ul li {
 }
 nav ul a {
 	-webkit-transition: all 1s;
+	-moz-transition: all 1s;
+	-o-transition: all 1s;
+	-ms-transition: all 1s;
+	transition: all 1s;
 	position: relative;
 	display: block;
 	height: 50px;

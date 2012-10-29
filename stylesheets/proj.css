@@ -1,3 +1,9 @@
+#content hgroup h1 {
+	text-align: center;
+	margin: 0;
+	color: #4ec714;
+}
+
 .box {
 	position: relative;
 	width: 300px;
@@ -15,13 +21,22 @@
 	background: #0f9761;
 }
 
+.pic img {
+	margin: 25px;
+}
+
 .pictext {
 	position: absolute;
 	background: #addb16;
-	width: 300px;
-	height: 300px;
+	width: 250px;
+	height: 250px;
 	top: 300px;
+	padding: 25px;
 	-webkit-transition: top .2s;
+	-moz-transition: top .2s;
+	-o-transition: top .2s;
+	-ms-transition: top .2s;
+	transition: top .2s;
 }
 
 .box:hover > .pictext {
