@@ -5,7 +5,6 @@
 
 #content {
 	float: left;
-	padding-left: 40px;
 	display: table;
 	margin-right: 300px;
 	border-right: 2px dotted #4ec714
@@ -17,6 +16,7 @@
 
 #content article {
 	float: left;
+	padding: 0px 40px;
 }
 
 #sidenav {
